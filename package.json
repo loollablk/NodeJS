@@ -1,0 +1,40 @@
+{
+  "name": "node_api",
+  "version": "1.0.0",
+  "description": " node-backend api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loollablk/NodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jwt",
+    "registration",
+    "authentication",
+    "authorization",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "sunimal.loollablk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loollablk/NodeJS/issues"
+  },
+  "homepage": "https://github.com/loollablk/NodeJS#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}
